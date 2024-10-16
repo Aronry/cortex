@@ -10,5 +10,22 @@ license = "MIT OR Apache-2.0"
 readme = "README.md"
 
 [dev-dependencies]
-bevy = "0.13"
+bevy = { version = "0.13.2", default-features = false, features = [
+    "bevy_asset",
+    "bevy_winit",
+    "bevy_render",
+    "x11",
+    "bevy_ui",
+    "bevy_text",
+    "bevy_core_pipeline",
+    "bevy_sprite",
+    "bevy_gltf",
+    "bevy_scene",
+    "bevy_pbr",
+    "png",
+    "tonemapping_luts",
+    "ktx2",
+    "zstd",
+    "multi-threaded",
+] }
 native-dialog = "0.7"
