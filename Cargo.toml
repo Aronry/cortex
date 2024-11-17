@@ -10,7 +10,7 @@ license = "MIT OR Apache-2.0"
 readme = "README.md"
 
 [dev-dependencies]
-bevy = { version = "0.13.2", default-features = false, features = [
+bevy = { version = "0.14.2", default-features = false, features = [
     "bevy_asset",
     "bevy_winit",
     "bevy_render",
